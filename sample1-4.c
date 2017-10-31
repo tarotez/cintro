@@ -7,7 +7,7 @@ int main()
     if(i == 7){
       printf("hello world!\n");
     }else{
-      printf("hi!");
+      printf("hi!\n");
     }
   }
 }
