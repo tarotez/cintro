@@ -1,11 +1,12 @@
-// Sample 1-3
+// sample 1-3
 #include <stdio.h>
 int main(){
-  char name[20];
-  int stdid;
-  printf("What's your name?\n");
-  scanf("%s", name);
+  char firstname[20];
+char lastname[20];
+  int id;
+  printf("What’s your full name?\n");
+  scanf("%s %s", firstname, lastname);
   printf("What is your student ID?\n");
-  scanf("%d", &stdid);
-  printf("Welcome, %s (student ID:%d)!", name, stdid);
+  scanf("%d", &id);
+  printf("Welcome, %s (student ID:%d)!\n", firstname, id);
 }
