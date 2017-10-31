@@ -8,7 +8,7 @@ struct person {
   int birthyear;
 };
 
-main(){
+int main(){
   int i;
   struct person friends[3];
 

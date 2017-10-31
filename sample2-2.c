@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-main(){
+int main(){
         char c, *p;
         char s[9] = "Software";
 

@@ -1,7 +1,7 @@
 // Sample 1-5
 #include <stdio.h>
 #include <math.h>
-main(){
+int main(){
     int i = 0;
     double arctan1 = 0;
     double d;

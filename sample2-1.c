@@ -1,7 +1,7 @@
 // sample 2-1
 #include <stdio.h>
 #include <stdlib.h>
-main(){
+int main(){
         int a, *p;
 
         a = 10;

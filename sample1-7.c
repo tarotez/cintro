@@ -1,6 +1,6 @@
 // sample 1-7
 #include <stdio.h>
-main(){
+int main(){
     int n = 10;
     int res = series(n);
     printf("the sum of 1 to %d is %d", n, res);

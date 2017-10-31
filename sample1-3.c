@@ -1,6 +1,6 @@
 // Sample 1-3
 #include <stdio.h>
-main(){
+int main(){
   char name[20];
   int stdid;
   printf("What's your name?\n");

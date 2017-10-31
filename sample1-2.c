@@ -1,6 +1,6 @@
 // Sample 1-2
 #include <stdio.h>
-main()
+int main()
 {
     char str1[] = "long";
     char str2[] = "my friend";

@@ -1,6 +1,6 @@
 // Sample 1-6
 #include <stdio.h>
-main(){
+int main(){
   int in, fact;
   printf("Type in a number: ");
   scanf("%d", &in);

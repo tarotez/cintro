@@ -7,7 +7,7 @@ typedef struct person {
 	int birthyear;
 } personData;
 
-main(){
+int main(){
 int i;
 personData *friends, *addressbook;
 friends = (personData*)malloc(sizeof(personData)*3);
