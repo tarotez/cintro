@@ -8,6 +8,5 @@ typedef struct person {
 } personData;
 
 int main(){
-  int i;
   personData friends[5];
 }
