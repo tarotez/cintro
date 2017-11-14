@@ -10,7 +10,8 @@ typedef struct person {
 int main(){
 int i;
 personData *friends, *addressbook;
-friends = (personData*)malloc(sizeof(personData)*3);
+int friendsNum = 3;
+friends = (personData*)malloc(sizeof(personData) * friendsNum);
 addressbook = friends;
 for(i = 0; i < 3; i++){
   printf("What is the name of friend %i?\n", i);
