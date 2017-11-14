@@ -1,0 +1,4 @@
+ABC-12 chocolate_cake 600
+CDE-34 apple_pie 500
+FGH-56 sparkling_wine 3000
+IJK-78 potato_chips 1200
