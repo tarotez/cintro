@@ -3,7 +3,7 @@
 #include <stdlib.h>
 typedef struct person {
 	char name[30];
-	char address[40];
+	char email[40];
 	int birthyear;
 } personData;
 

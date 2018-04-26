@@ -4,7 +4,7 @@
 
 struct person {
   char name[30];
-  char address[40];
+  char email[40];
   int birthyear;
 };
 
@@ -15,12 +15,12 @@ int main(){
   for(i = 0; i < 3; i++){
     printf("What is the name of friend #%i?\n", i);
     scanf("%s", friends[i].name);
-    printf("What is the address of %s?\n", friends[i].name);
-    scanf("%s", friends[i].address);
+    printf("What is the email address of %s?\n", friends[i].name);
+    scanf("%s", friends[i].email);
   }
     printf("\n");
     for(i = 0; i < 3; i++){
     printf("Friend #%d: %s, ", i, friends[i].name);
-    printf("lives in %s\n", friends[i].address);
+    printf("Email: %s\n", friends[i].email);
   }
 }
