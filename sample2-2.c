@@ -20,10 +20,10 @@ int main(){
         printf("s: %s\n", s);
         printf("s[0]: %c\n", s[0]);
         printf("s[1]: %c\n", s[1]);
-        printf("s: %d\n", s);
-        printf("&s[0]: %p\n", &s[0]);
         printf("*s: %c\n", *s);
-        printf("*(s+1): %c\n\n", *(s+1));
+        printf("*(s+1): %c\n", *(s+1));
+        printf("&s[0]: %p\n", &s[0]);
+        printf("s: %p\n\n", s);
 
         *(s+3) = 'T';
         printf("s: %s\n", s);
