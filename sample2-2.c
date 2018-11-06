@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main(){
         char c, *p;
         char s[9] = "Software";
