@@ -22,6 +22,7 @@ int main(){
         printf("s[1]: %c\n", s[1]);
         printf("s: %d\n", s);
         printf("&s[0]: %p\n", &s[0]);
+        printf("s: %p\n", s);
         printf("*s: %c\n", *s);
         printf("*(s+1): %c\n\n", *(s+1));
 
