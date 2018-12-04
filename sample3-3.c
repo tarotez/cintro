@@ -11,8 +11,8 @@ int main(){
 int i;
 personData *friends, *emailbook;
 int friendsNum = 3;
-friends = (personData*)malloc(sizeof(personData) * friendsNum);
-emailbook = friends;
+emailbook = (personData*)malloc(sizeof(personData) * friendsNum);
+friends = emailbook;
 for(i = 0; i < 3; i++){
   printf("What is the name of friend %i?\n", i);
   scanf("%s", (*friends).name);

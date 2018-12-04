@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main(){
         char c, *p;
         char s[9] = "Software";
@@ -24,7 +23,9 @@ int main(){
         printf("&s[0]: %p\n", &s[0]);
         printf("s: %p\n", s);
         printf("*s: %c\n", *s);
-        printf("*(s+1): %c\n\n", *(s+1));
+        printf("*(s+1): %c\n", *(s+1));
+        printf("&s[0]: %p\n", &s[0]);
+        printf("s: %p\n\n", s);
 
         *(s+3) = 'T';
         printf("s: %s\n", s);
