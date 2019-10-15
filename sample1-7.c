@@ -1,10 +1,5 @@
 // sample 1-7
 #include <stdio.h>
-int main(){
-    int n = 10;
-    int res = series(n);
-    printf("the sum of 1 to %d is %d", n, res);
-}
 
 int series(int a){
   if(a <= 0){
@@ -12,4 +7,10 @@ int series(int a){
   }else{
     return a + series(a-1);
   }
+}
+
+int main(){
+    int n = 10;
+    int res = series(n);
+    printf("the sum of 1 to %d is %d", n, res);
 }
